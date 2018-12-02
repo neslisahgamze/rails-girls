@@ -13,7 +13,6 @@
  *= require_tree .
  *= require_self
  */
-body { padding-top: 60px; }
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
@@ -30,3 +29,5 @@ th { border-bottom: 1px solid #DDD; }
  text-decoration: none;
 }
 .navbar-text { margin-top: -17px; margin-bottom: 3px;}
+
+.navbar-text pull-right { background-color: black;}
